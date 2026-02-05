@@ -1,0 +1,83 @@
+.lekefupro-container {
+    position: fixed;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+    z-index: 9999;
+}
+
+.lekefupro-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lekefupro-icon-item {
+    width: 40px;
+    height: 40px;
+    background: #0073aa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.lekefupro-icon-item:hover {
+    background: #005177;
+}
+
+.lekefupro-icon-item .dashicons {
+    color: white;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.lekefupro-qrcode {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: none;
+    width: 150px;
+    text-align: center;
+}
+
+.lekefupro-icon-item:hover .lekefupro-qrcode {
+    display: block;
+}
+
+.lekefupro-qrcode img {
+    width: 100%;
+    height: auto;
+}
+
+.lekefupro-qrcode p {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #666;
+}
+
+.lekefupro-qrcode .phone-number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0073aa;
+}
+
+.scroll-to-top {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+} 

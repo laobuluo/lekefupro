@@ -1,0 +1,28 @@
+.image-upload-wrap {
+    margin-top: 10px;
+}
+
+.image-preview {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    max-width: 200px;
+}
+
+.image-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table td {
+    padding: 15px 10px;
+}
+
+.upload-image {
+    margin: 5px 0;
+} 
