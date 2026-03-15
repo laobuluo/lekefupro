@@ -7,7 +7,7 @@ if (!defined('ABSPATH')) {
 
 <div class="wrap">
     <h2>LeKeFuPro 客服插件设置</h2>
-    <p>客服图标设置。<a href="https://www.lezaiyun.com/902.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
+    <p>客服图标设置。<a href="https://www.laojiang.me/7232.html" target="_blank">插件介绍</a>（关注公众号：<span style="color: red;">老蒋朋友圈</span>）</p>
     <form method="post" action="options.php">
         <?php
             settings_fields('lekefupro');

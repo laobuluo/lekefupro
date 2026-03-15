@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: LeKeFuPro
- * Plugin URI: https://www.lezaiyun.com/902.html
+ * Plugin URI: https://www.laojiang.me/7232.html
  * Description: 一个专业的WordPress客服浮动图标插件，支持QQ、微信、电话、公众号等客服功能。公众号：<span style="color: red;">老蒋朋友圈</span>
  * Version: 1.0.0
  * Author: 老蒋和他的小伙伴
- * Author URI: https://www.lezaiyun.com/
+ * Author URI: https://www.laojiang.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: lekefupro
